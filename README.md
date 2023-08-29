@@ -7,6 +7,10 @@ expects the client to write the passkey to a predefined characteristic to authen
 a single notification providing the values. Any other attempts to retrieve the value of the characreristic will result in an empty
 response.
 
+### 
+The service and the characteristic are identified by the following UUIDs respectively: `0000ffe0-0000-1000-8000-00805f9b34fb` and `0000ffe1-0000-1000-8000-00805f9b34fb`.
+The latter is also used to subscribe to the response notifications. 
+
 ### Request format
 
 | Offset | Value     | Description                                           |
