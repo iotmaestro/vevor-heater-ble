@@ -1,0 +1,25 @@
+[project]
+name = "vevor-heater-ble"
+authors = [
+    {email = "iotmaestro@proton.me"},
+]
+version="0.1.0"
+description = "A simple API for BLE-enabled Vevor independent heaters"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT License"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+  "bleak~=0.21.1",
+  "bleak-retry-connector~=3.2.1",
+]
+
+[project.urls]
+Repository = "https://github.com/iotmaestro/vevor-heater-ble"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

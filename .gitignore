@@ -1,0 +1,5 @@
+.idea/
+dist/
+src/__pycache__/
+src/*.egg-info/
+venv/
