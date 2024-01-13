@@ -5,7 +5,6 @@ authors = [
 ]
 version = "0.1.1"
 description = "A simple API for BLE-enabled Vevor independent heaters"
-long_description = "See GitHub's README for more details."
 readme = "README.md"
 requires-python = ">=3.6"
 license = {text = "MIT License"}
