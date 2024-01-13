@@ -3,7 +3,7 @@ name = "vevor-heater-ble"
 authors = [
     {email = "iotmaestro@proton.me"},
 ]
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple API for BLE-enabled Vevor independent heaters"
 long_description = "See GitHub's README for more details."
 readme = "README.md"
@@ -14,8 +14,8 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 dependencies = [
-  "bleak~=0.21.1",
-  "bleak-retry-connector~=3.2.1",
+  "bleak>=0.21.1",
+  "bleak-retry-connector>=3.2.1",
 ]
 
 [project.urls]
