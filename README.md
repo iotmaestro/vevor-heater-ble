@@ -20,8 +20,8 @@ The latter is also used to subscribe to the response notifications.
 | 2      | 0x0C      | Two most significant decimal password digits (**12**) |
 | 3      | 0x22      | Two least significant decimal password digits (**34**)|
 | 4      | 0x01-0x04 | Command to run (see below for more details)           |
-| 5      | depends   | Value to send alongside the command.                  |
-| 6      | 0x00      | ??? (padding, always zero)                            |
+| 5      | depends   | Low byte of Value to send alongside the command.      |
+| 6      | depends   | High byte of Value to send (usually 0x00)             |
 | 7      | any       | Checksum, sum of values at offset 2-6 modulo 256      |
 
 #### Request commands
